@@ -1,1 +1,39 @@
+CSS EXPERIMENT NO - 1.1 = 
 
+AIM - Design and Implementation of a product cipher using Substitution Ciphers.
+
+Theory - 1] Substitution Cipher:- Replaces each letter in the plaintext with a different letter based on a fixed rule.
+Shifting Mechanism: Shifts each letter by a certain number of positions in the alphabet, known as the key.
+Key: Determines the amount of shift. In this case, the key is 15.
+
+2] Encryption Process:-
+For each letter in the plaintext: 2. Check if it's an alphabet. 3. If it's an uppercase letter, use 'A' as the base for shifting. 4. If it's a lowercase letter, use 'a' as the base. 5. Shift the character's ASCII code by the key, wrapping around the alphabet using the modulo operator (% 26). 6. Convert the shifted code back to a character and append it to the ciphertext. 7. If it's not an alphabet, keep it as it is in the ciphertext.
+Ciphertext: The encrypted message, consisting of the shifted letters.
+
+3] Example:-
+Plaintext: ENEMY ATTACK TODAY
+Key: 15
+Ciphertext: YVTBA QLLFZV YBLOL
+
+4] Decryption:- To decrypt, shift each letter in the ciphertext back by the same key positions in the opposite direction.
+
+# Additive and Multiplicative Ciphers:
+1] Additive Cipher (e.g., Caesar Cipher):-
+
+1] Encryption: Shifts each letter by a fixed number of positions (key) in the alphabet.
+2] Formula: C = (P + K) % 26 (where C is ciphertext, P is plaintext, K is key)
+3] Key Space: 26 possible keys (0-25 shifts)
+4] Example: With a key of 3, 'A' becomes 'D', 'B' becomes 'E', and so on.
+
+2] Multiplicative Cipher:-
+
+1] Encryption: Multiplies each letter's position in the alphabet by a fixed number (key), then takes the remainder when divided by 26.
+2] Formula: C = (P * K) % 26
+3] Key Space: Potentially larger key space, but limited by coprimality with 26 (keys must be relatively prime to 26). Valid keys include 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, and 25.
+4] Example: With a key of 5, 'A' becomes 'F' (1 * 5 = 5, 5 % 26 = 5, which corresponds to 'F'), 'B' becomes 'K', and so on.
+
+# Key Differences:-
+
+1] Operation:- Additive ciphers add a value, while multiplicative ciphers multiply.
+2] Key Space:- Multiplicative ciphers have a potentially larger key space, but not all keys are valid due to coprimality requirements.
+3] Security:- Both are simple substitution ciphers and can be broken relatively easily with frequency analysis or brute force attacks.
