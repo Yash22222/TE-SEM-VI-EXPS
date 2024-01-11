@@ -1,3 +1,30 @@
 DAVL EXP - 1
-AIM -     Explore various data analytics Libraries in Python.
-THEORY - 
+AIM -      Explore various data analytics Libraries in Python.
+THEORY -   Python Data Analytics Libraries:-
+1] NumPy:-
+- NumPy is a fundamental package for scientific computing with Python.
+- It provides support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
+
+2] Pandas:-
+- Pandas is a powerful library for data manipulation and analysis.
+- It introduces two main data structures: Series (1-dimensional) and DataFrame (2-dimensional), making it easy to handle structured data.
+
+3] Matplotlib:-
+- Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+- It provides a MATLAB-like interface, making it straightforward to generate plots, charts, and other data visualizations.
+
+4] Seaborn:-
+- Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive statistical graphics.
+- It simplifies the process of creating informative and visually appealing statistical graphics.
+
+Now Let's Understand the Program:- 
+
+1] Loading the Dataset:- The Iris dataset is loaded from the provided URL using Pandas.
+2] Bar Plot:- A bar plot is created to show the average sepal length for each species.
+3] Box Plot:- A box plot is generated using Seaborn to visualize the distribution of sepal length for each species.
+4] Violin Plot:- A violin plot is used to show the distribution of petal width for each species.
+5] Heatmap:- A heatmap is created to visualize the correlation matrix between different features of the Iris dataset.
+6] Scatter Plots with Plotly Express:- Two scatter plots are generated using Plotly Express for different combinations of features (Sepal Length vs. Sepal Width, Sepal Length vs. Petal Length).
+7] Pie Chart:- A pie chart is created to display the distribution of Iris species in the dataset.
+
+Conclusion:- These visualizations provide insights into the characteristics and relationships within the Iris dataset.
