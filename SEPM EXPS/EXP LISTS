@@ -1,1 +1,12 @@
-
+1 To understand DevOps: Principles, Practices, and DevOps Engineer Role and Responsibilities
+2 To understand the Version Control System / Source Code Management, install git and create a GitHub account
+3 To Perform various GIT operations on local and Remote repositories using GIT Cheat-Sheet
+4 To understand Continuous Integration, install and configure Jenkins with Maven/Ant/Gradle to setup a build Job
+5 To Build the pipeline of jobs using Maven / Gradle / Ant in Jenkins, create a pipeline script to Test and deploy an application over the tomcat server.
+6 To understand Jenkins Master-Slave Architecture and scale your Jenkins standalone implementation by implementing slave nodes.
+7 To Setup and Run Selenium Tests in Jenkins Using Maven.
+8 To understand Docker Architecture and Container Life Cycle, install Docker and execute docker commands to manage images and interact with containers
+9 To learn Dockerfile instructions, build an image for a sample web application using Dockerfile.
+10 To install and Configure Pull based Software Configuration Management and provisioning tools using Puppet
+11 To learn Software Configuration Management and provisioning using Puppet Blocks(Manifest, Modules, Classes, Function)
+12 To provision a LAMP/MEAN Stack using Puppet Manifest
