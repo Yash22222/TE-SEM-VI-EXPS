@@ -1,1 +1,16 @@
+AIM - To study and implement Hosted Virtualization using VirtualBox & KVM.
 
+THEORY - Hosted Virtualization is a fundamental concept in the realm of cloud computing, offering a versatile approach to managing virtual machines (VMs) on a host operating system. 
+This Cloud Computing Lab Experiment 2 specifically focuses on the study and implementation of Hosted Virtualization using two prominent technologies: VirtualBox and KVM (Kernel-based Virtual Machine).
+
+1] VirtualBox:-
+VirtualBox, an open-source hosted hypervisor developed by Oracle, operates as an application within the host operating system. Its user-friendly interface simplifies the process of creating, configuring, and managing VMs. 
+This experiment involves participants installing VirtualBox and gaining hands-on experience in VM setup and manipulation.
+
+2] KVM (Kernel-based Virtual Machine):- 
+KVM, a Linux kernel module, transforms the host operating system into a hypervisor. Unlike VirtualBox, KVM acts as a type-1 hypervisor, integrated directly into the Linux kernel. 
+Experimentation with KVM includes command-line tools and libvirt for management, providing participants with insights into Linux-based virtualization.
+
+CONCLUSION - In conclusion, the Hosted Virtualization experiment employing VirtualBox and KVM provides participants with hands-on experience in creating and managing virtual machines.
+This practical exposure enhances their understanding of hypervisor technologies, resource optimization, and the fundamental principles of cloud computing. 
+The experiment serves as a valuable foundation for participants to navigate virtualized environments and contributes to their proficiency in building scalable and efficient cloud infrastructures.
