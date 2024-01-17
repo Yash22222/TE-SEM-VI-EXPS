@@ -1,9 +1,11 @@
 DAVL EXP - 1
-AIM -      Explore various data analytics Libraries in Python.
+
+AIM -      Explore various data analytics Libraries in Python & R.
+
 THEORY -   Python Data Analytics Libraries:-
 1] NumPy:-
 - NumPy is a fundamental package for scientific computing with Python.
-- It provides support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
+- It supports large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
 
 2] Pandas:-
 - Pandas is a powerful library for data manipulation and analysis.
@@ -11,10 +13,10 @@ THEORY -   Python Data Analytics Libraries:-
 
 3] Matplotlib:-
 - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
-- It provides a MATLAB-like interface, making it straightforward to generate plots, charts, and other data visualizations.
+- It provides a MATLAB-like interface, making generating plots, charts, and other data visualizations straightforwardly.
 
 4] Seaborn:-
-- Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive statistical graphics.
+- Seaborn is built on Matplotlib and provides a high-level interface for drawing attractive statistical graphics.
 - It simplifies the process of creating informative and visually appealing statistical graphics.
 
 Now Let's Understand the Program:- 
@@ -26,5 +28,13 @@ Now Let's Understand the Program:-
 5] Heatmap:- A heatmap is created to visualize the correlation matrix between different features of the Iris dataset.
 6] Scatter Plots with Plotly Express:- Two scatter plots are generated using Plotly Express for different combinations of features (Sepal Length vs. Sepal Width, Sepal Length vs. Petal Length).
 7] Pie Chart:- A pie chart is created to display the distribution of Iris species in the dataset.
+
+5] ggplot2:- ggplot2 is a popular and versatile data visualization package in R that follows the "Grammar of Graphics" philosophy. 
+This framework allows users to construct a wide variety of plots by combining different components in a layered approach. 
+Each layer can represent various aspects of the data, such as points, lines, or bars. The package supports aesthetic mapping, enabling the mapping of variables to visual elements like color or size. 
+This means that additional dimensions of the data can be easily represented in the plot.
+
+One of the strengths of ggplot2 is its extensive customization options. Users can modify almost every aspect of a plot, including titles, labels, scales, and themes, providing a high level of flexibility. 
+Plots are built using a modular approach, allowing for the creation of complex visualizations through the combination and customization of different components.
 
 Conclusion:- These visualizations provide insights into the characteristics and relationships within the Iris dataset.
