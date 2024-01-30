@@ -1,1 +1,16 @@
+Aim -  Multiple Linear Regression in Python & R
+Theory - Multiple Linear Regression is a statistical method used in predictive modeling that extends the concept of simple linear regression to multiple independent variables. 
+It aims to establish a linear relationship between the dependent variable and multiple predictor variables. In Python, the scikit-learn library is commonly used for implementing multiple linear regression. 
+Let's dive into the theory and then discuss the conclusion.
 
+1. Mathematical Representation:
+The multiple linear regression equation is represented as follows:
+yi​ is the dependent or predicted variable
+β0 is the y-intercept, i.e., the value of y when both xi and x2 are 0.
+β1 and β2 are the regression coefficients representing the change in y relative to a one-unit change in xi1 and xi2, respectively.
+βp is the slope coefficient for each independent variable
+ϵ is the model’s random error (residual) term.
+
+Conclusion - n conclusion, Multiple Linear Regression in Python involves establishing a linear relationship between a dependent variable and multiple independent variables. 
+Using the scikit-learn library, the model is trained, predictions are made, and its performance is evaluated with metrics like Mean Squared Error and R-squared. 
+Interpretation of coefficients provides insights into variable relationships, and careful consideration of assumptions is crucial for accurate conclusions about the model's reliability and predictive capabilities.
